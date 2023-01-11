@@ -7,10 +7,9 @@ function Portafolio() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12 section-title text-center">
-              <h3>Check our recent works</h3>
+              <h3>Lorem Ipsum is simply</h3>
               <p>
-                Vestibulum elementum dui tempus dolor gravida, vel mattis erat
-                fermentum.
+              Lorem Ipsum is simplyLorem Ipsum is simplyLorem Ipsum is simply.
               </p>
               <span className="section-title-line"></span>{" "}
             </div>

@@ -1,6 +1,7 @@
-import React from 'react'
+import { AppBar } from '@mui/material';
+import React,{useState} from 'react'
 
-function navbar() {
+function Navbar() {
     const [navbarScroll, setNavbarScroll] = useState(false);
 
     const changeBackground = () => {
@@ -14,61 +15,68 @@ function navbar() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
-        <div className="container">
-          {" "}
-          <a class="navbar-brand navbar-logo" href="#">
-            {" "}
-            <h2>Logo</h2>
+      <AppBar
+        sx={
+          navbarScroll
+            ? {
+                backgroundColor: "#000",
+                transition: "0.3s",
+                width: "100%",
+              }
+            : {
+                backgroundColor: "#000" ? "transparent" : "#000",
+                boxShadow: 0,
+                transition: "0.3s",
+                width: "100%",
+              }
+        }
+        className="navbar navbar-expand-lg navbar-light fixed-top shadow-sm"
+        id="mainNav"
+      >
+        <div className="container d-flex justify-content-start navegacion d-flex justify-content-between">
+          <a className="navbar-brand fw-bold" href="#page-top" title="Top-Page">
+            <img className="logonav" src="" alt="Logo" title="Logo" />
           </a>
+
           <button
+           style={{color:"#ffff"}}
             className="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            {" "}
-            <span class="fas fa-bars"></span>{" "}
+            <span class="fas fa-bars"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ml-auto">
+
+          <div className="collapse navbar-collapse" id="navbarResponsive">
+            <ul className=" navbar-nav ms-auto me-2 my-2 my-lg-0">
               <li className="nav-item">
-                {" "}
-                <a class="nav-link" href="" data-scroll-nav="0">
-                  Home
-                </a>{" "}
-              </li>
-              <li className="nav-item">
-                {" "}
-                <a class="nav-link" href="#" data-scroll-nav="1">
+                <a class="nav-link me-lg-3" href="#service" title="About">
                   Sobre Nosotros
-                </a>{" "}
+                </a>
               </li>
               <li className="nav-item">
-                {" "}
-                <a class="nav-link" href="#" data-scroll-nav="2">
+                <a class="nav-link me-lg-3" href="#aboutus" title="About">
                   Servicios
-                </a>{" "}
+                </a>
               </li>
               <li className="nav-item">
-                {" "}
-                <a class="nav-link" href="#" data-scroll-nav="3">
+                <a class="nav-link me-lg-3" href="#precios" title="Price">
                   Portafolio
-                </a>{" "}
+                </a>
               </li>
               <li className="nav-item">
-                {" "}
-                <a class="nav-link" href="#" data-scroll-nav="4">
+                <a href="#contact" title="Contact">
                   Contacto
-                </a>{" "}
+                </a>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+      </AppBar>
 
       <div className="banner text-center" data-scroll-index="0">
         <div className="banner-overlay">
@@ -91,4 +99,4 @@ function navbar() {
   );
 }
 
-export default navbar
+export default Navbar

@@ -3,6 +3,7 @@ import Navbar from "../Navbr/Navbar"
 import AboutUs from "../AboutUs/AboutUs"
 import Service from "../Services/Service"
 import Portafolio from '../Portafolio/Portafolio'
+import MidSection from '../MidSection/MidSection'
 function Home() {
   return (
    <>
@@ -10,6 +11,7 @@ function Home() {
     <AboutUs/>
     <Service/>
     <Portafolio/>
+    <MidSection/>
    </>
   )
 }

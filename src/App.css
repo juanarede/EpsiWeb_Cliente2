@@ -6,7 +6,7 @@
 	text-decoration: none !important;
 	list-style: none !important;
 	outline: none !important;
-	margin: 0;
+	margin:0 auto;
 	padding: 0;
 }
 html {
@@ -224,13 +224,59 @@ h6 {
 	background-size: cover;
 	color:#ffffff;
 	text-align: center;
+	height: 100%;
 	width: 100%;
 }
 .banner-overlay {
 	background: rgb(134,168,198);
 background: linear-gradient(180deg, rgba(134,168,198,0.5746673669467788) 0%, rgba(53,134,203,0.8127626050420168) 56%, rgba(1,88,162,1) 100%);
-padding:300px 0px 220px;
+padding:300px 0px 481px;
+display: block;
+width: 100%;
+height: 100%;
 }
+
+.banner2 {
+	background:url(./assets/img/headerimage2.jpg) no-repeat 0% 0% / 100% 100%;
+	background-size: cover;
+	color:#ffffff;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+.banner-overlay2 {
+	background: rgb(134,168,198);
+background: linear-gradient(180deg, rgba(134,168,198,0.5746673669467788) 0%, rgba(53,134,203,0.8127626050420168) 56%, rgba(1,88,162,1) 100%);
+padding:300px 0px 481px;
+display: block;
+width: 100%;
+height: 100%;
+}
+
+
+.banner3 {
+	background:url(./assets/img/headerimage3.jpg) no-repeat 0% 0% / 100% 100%;
+	background-size: cover;
+	color:#ffffff;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+.banner-overlay3 {
+	background: rgb(134,168,198);
+background: linear-gradient(180deg, rgba(134,168,198,0.5746673669467788) 0%, rgba(53,134,203,0.8127626050420168) 56%, #0158a2 100%);
+padding:300px 0px 481px;
+display: block;
+width: 100%;
+height: 100%;
+}
+
+
+.divider{
+	color: #0158a2;
+}
+
+
 .banner h1 {
 	color:#ffffff;
 }
@@ -239,7 +285,7 @@ padding:300px 0px 220px;
 	max-width: 670px
 }
 .banner-btn {
-	background: #ab2f52;
+	background: #0158a2;
 	padding: 12px 45px;
 	font-size: 15px;
 	border-radius: 30px;
@@ -247,7 +293,7 @@ padding:300px 0px 220px;
 }
 .banner-btn:hover {
 	background: #ffffff;
-	color:#ab2f52;
+	color:#0158a2;
 }
 .section-padding {
 	padding: 100px 0px;
@@ -256,7 +302,7 @@ padding:300px 0px 220px;
 	padding-bottom: 80px;
 }
 .section-title h3 {
-	color: #ab2f52;
+	color: #0158a2;
 	text-transform: uppercase;
 	font-weight: 300;
 	margin-bottom: 22px;
@@ -274,7 +320,7 @@ padding:300px 0px 220px;
 	width: 175px;
 }
 .section-title-line:after {
-	background: #ab2f52;
+	background: #0158a2;
 	bottom: -1px;
 	content: "";
 	height: 2px;
@@ -654,3 +700,6 @@ padding:300px 0px 220px;
 	padding: 150px 0px 100px;
 }
 }
+
+
+

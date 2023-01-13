@@ -1,0 +1,14 @@
+ .vertical {
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 200px;
+    position:absolute;
+   
+}
+
+.footer-section{
+   
+background-image: linear-gradient(linear, left top, right top, from(#11bbef), to(#0158a2));
+    background-image: linear-gradient(90deg, #11bbef, #0158a2);
+    padding-bottom: 10rem;
+    padding-top: 3rem;
+} 

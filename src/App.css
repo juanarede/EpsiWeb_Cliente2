@@ -1,21 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.cdnfonts.com/css/mokoko');
 @import url('https://fonts.cdnfonts.com/css/muli');
 
 * {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	text-decoration: none !important;
-	list-style: none !important;
-	outline: none !important;
+	text-decoration: none;
+	list-style: none;
+	outline: none;
 	margin:0 auto;
 	padding: 0;
 }
-html {
-	height: 100%;
-}
+
+html{
+	overflow-x: hidden;
+  }
 body {
 	color: #888888;
-	font-size: 15px;
-	font-family: "Muli", sans-serif;
 	height: 100%;
 	overflow-x: hidden;
 } 
@@ -33,34 +34,44 @@ img {
 span, a {
 	display: inline-block;
 	color: inherit;
-}
-h1, h2, h3, h4, h5, h6 {
-	color: #151515;
-	font-weight: bold;
-	font-family: 'Muli', sans-serif;
-                                                
-
-	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 
-h1 {
-	font-family: 'Muli', sans-serif;
-	font-size: 80px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: bold;
-	line-height: 26.4px;
+.text-capitalize {
+	margin-bottom: 46px;
+    font-family: 'Muli', sans-serif;
+    color: #fff;
+    font-size: 72px;
+
+    font-weight: 900;
+
+}
+@media screen and(max-width:479px) { 
+	.text-capitalize {
+		margin-top: 100px;
+		font-size: 50px;
+		line-height: 27px;
+	}
+}
+
+.text-block{
+	margin-left: 0;
+
+    font-family: 'Muli', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
 }
 h2 {
 	font-family: 'Muli', sans-serif;
 	font-size: 35px;
-	font-style: normal;
-	font-variant: normal;
+
 	font-weight: bold;
 	line-height: 15.4px;
 }
 h3 {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -69,7 +80,7 @@ h3 {
 }
 
 h4 {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 19px;
 	font-style: normal;
 	font-variant: normal;
@@ -77,7 +88,7 @@ h4 {
 	
 }
 h5 {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -85,7 +96,7 @@ h5 {
 	
 }
 h6 {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -94,8 +105,8 @@ h6 {
 }
 
 p {
-	font-family: 'Muli', sans-serif;
-	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: bold;
@@ -103,7 +114,7 @@ p {
 }
 
 blockquote {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 21px;
 	font-style: normal;
 	font-variant: normal;
@@ -112,7 +123,7 @@ blockquote {
 }
 
 pre {
-	font-family: Muli;
+	font-family: 'Lato', sans-serif;
 	font-size: 13px;
 	font-style: normal;
 	font-variant: normal;
@@ -123,6 +134,7 @@ p {
 	line-height: 1.6;
 	font-weight: bold;
 	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 h1 {
 	font-size: 40px;
@@ -181,6 +193,16 @@ h6 {
 	position: relative;
 	padding: 0;
 }
+.nav-link{
+	padding-right: 15px;
+    padding-left: 15px;
+    -webkit-transition: padding 400ms ease;
+    transition: padding 400ms ease;
+    font-family: 'Muli', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
 .navbar .navbar-toggler {
 	cursor: pointer;
 }
@@ -219,82 +241,7 @@ h6 {
 
 
 
-.banner {
-	background:url(./assets/img/headerimage.jpg) no-repeat 0% 0% / 100% 100%;
-	background-size: cover;
-	color:#ffffff;
-	text-align: center;
-	height: 100%;
-	width: 100%;
-}
-.banner-overlay {
-	background: rgb(134,168,198);
-background: linear-gradient(180deg, rgba(134,168,198,0.5746673669467788) 0%, rgba(53,134,203,0.8127626050420168) 56%, rgba(1,88,162,1) 100%);
-padding:300px 0px 481px;
-display: block;
-width: 100%;
-height: 100%;
-}
 
-.banner2 {
-	background:url(./assets/img/headerimage2.jpg) no-repeat 0% 0% / 100% 100%;
-	background-size: cover;
-	color:#ffffff;
-	text-align: center;
-	height: 100%;
-	width: 100%;
-}
-.banner-overlay2 {
-	background: rgb(134,168,198);
-background: linear-gradient(180deg, rgba(134,168,198,0.5746673669467788) 0%, rgba(53,134,203,0.8127626050420168) 56%, rgba(1,88,162,1) 100%);
-padding:300px 0px 481px;
-display: block;
-width: 100%;
-height: 100%;
-}
-
-
-.banner3 {
-	background:url(./assets/img/headerimage3.jpg) no-repeat 0% 0% / 100% 100%;
-	background-size: cover;
-	color:#ffffff;
-	text-align: center;
-	height: 100%;
-	width: 100%;
-}
-.banner-overlay3 {
-	background: rgb(134,168,198);
-background: linear-gradient(180deg, rgba(134,168,198,0.5746673669467788) 0%, rgba(53,134,203,0.8127626050420168) 56%, #0158a2 100%);
-padding:300px 0px 481px;
-display: block;
-width: 100%;
-height: 100%;
-}
-
-
-.divider{
-	color: #0158a2;
-}
-
-
-.banner h1 {
-	color:#ffffff;
-}
-.banner p {
-	margin:15px auto 15px;
-	max-width: 670px
-}
-.banner-btn {
-	background: #0158a2;
-	padding: 12px 45px;
-	font-size: 15px;
-	border-radius: 30px;
-	margin-top: 30px;
-}
-.banner-btn:hover {
-	background: #ffffff;
-	color:#0158a2;
-}
 .section-padding {
 	padding: 100px 0px;
 }
@@ -354,7 +301,8 @@ height: 100%;
 	margin-bottom: 5px;
 }
 .sub-title-paragraph h5 {
-	color:#ffaf53;
+	background: rgb(223,146,254);
+background: linear-gradient(80deg, rgba(223,146,254,1) 7%, rgba(184,158,252,0.9976365546218487) 59%, rgba(157,170,250,1) 99%);
 }
 .sub-title-paragraph p {
 	padding-top: 20px;
@@ -363,7 +311,8 @@ height: 100%;
 	line-height: 25px;
 }
 .anchor-btn {
-	background: #ffaf53;
+	background: rgb(223,146,254);
+background: linear-gradient(80deg, rgba(223,146,254,1) 7%, rgba(184,158,252,0.9976365546218487) 59%, rgba(157,170,250,1) 99%);
 	padding: 10px 20px;
 	color: #ffffff !important;
 	border-radius: 3px;
@@ -384,7 +333,8 @@ height: 100%;
 
 .service-box .icon i {
 	font-size: 40px;
-	color: #ffaf53;
+	color: rgb(223,146,254);
+color: linear-gradient(80deg, rgba(223,146,254,1) 7%, rgba(184,158,252,0.9976365546218487) 59%, rgba(157,170,250,1) 99%);
 }
 
 .icon-text h4 {
@@ -430,7 +380,8 @@ height: 100%;
 	border: 0;
 }
 .portfolio .filtering .active {
-	background-color: #ab2f52;
+	background: rgb(223,146,254);
+background: linear-gradient(80deg, rgba(223,146,254,1) 7%, rgba(184,158,252,0.9976365546218487) 59%, rgba(157,170,250,1) 99%);
 	color: #fff;
 	border-radius: 28px;
 	-webkit-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.2);
@@ -579,10 +530,12 @@ height: 100%;
 	background-color: #1c1c1c;
 }
 .testimonials {
-
+    background:url(./assets/img/headerimage.jpg) no-repeat 0% 0% / 100% 100%;
+	background-size: cover;
 	width:100%;
 }
 .testimonials-overlay {
+	
 	background: rgba(0,0,0,0.9);
 }
 .testimonials .testimonial-item p {
@@ -591,7 +544,8 @@ height: 100%;
 	margin-bottom: 30px !important;
 }
 .testimonials .icon i {
-	color: #ab2f52;
+	color: rgb(223,146,254);
+    color: linear-gradient(80deg, rgba(223,146,254,1) 7%, rgba(184,158,252,0.9976365546218487) 59%, rgba(157,170,250,1) 99%);
 	font-size: 47px;
 	margin-bottom: 25px;
 }
@@ -701,5 +655,8 @@ height: 100%;
 }
 }
 
-
+.fa-comments {
+	color: rgb(223,146,254);
+   color: linear-gradient(80deg, rgba(223,146,254,1) 7%, rgba(184,158,252,0.9976365546218487) 59%, rgba(157,170,250,1) 99%);
+}
 

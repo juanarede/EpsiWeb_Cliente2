@@ -1,0 +1,20 @@
+.inspace-10 {
+    padding: 10px;
+}
+
+.borderedbox {
+    border: 3px solid rgba(189, 189, 189, 0.527);
+}
+.img-aboutus{
+    
+        width: 80%;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        top:10rem;
+        line-height: normal;
+        vertical-align: middle;
+        margin-bottom: 3rem;
+    
+}

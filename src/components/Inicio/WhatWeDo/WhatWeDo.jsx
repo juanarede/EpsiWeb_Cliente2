@@ -1,14 +1,16 @@
 import React from 'react';
-import Image from "../../../assets/img/sin-imagen.jpg";
-import "./AboutUs.css"
-function AboutUs() {
+
+import Metrica from '../../../assets/img/metrica.jpg';
+import "./WhatWeDo.css";
+
+function WhatweDo() {
   return (
     <>
-        <div  className="about-us section-padding " data-scroll-index='1'>
+  <div  className="about-us section-padding " data-scroll-index='1'>
   <div className="container">
     <div className="row">
       <div className="col-md-12 section-title text-center">
-        <h3>Lorem Ipsum is simply dummy text</h3>
+        <h3 className='mid-title'>Que es lo que hacemos...</h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
         <span className="section-title-line"></span> </div>
       <div className="col-md-6 mb-50">
@@ -25,7 +27,7 @@ function AboutUs() {
           <a href="#" class="anchor-btn">Learn more <i class="fas fa-arrow-right pd-lt-10"></i></a> </div>
       </div>
       <div className="col-md-6 mb-50">
-        <div className="section-img"> <img src={Image} alt="" class="img-aboutus img-responsive inspace-10 borderedbox"/> </div>
+        <div className="section-img"> <img src={Metrica} alt="" class="img-aboutus img-responsive inspace-10 box-radius"/> </div>
       </div>
     </div>
   </div>
@@ -34,4 +36,4 @@ function AboutUs() {
   )
 }
 
-export default AboutUs
+export default WhatweDo;

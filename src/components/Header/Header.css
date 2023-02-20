@@ -1,0 +1,41 @@
+.carousel{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    text-align: center;
+}
+.main-title{
+    font-size: 70px;
+    font-weight: bold;
+}
+.implicit-title{
+    display: none;
+}
+.head{
+	padding: 0;
+	/*Ocupamos toda la altura*/
+	height: 100%;
+	/*Acomodamos los elementos*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/*Columnas de elementos (No uno al lado de otro)*/
+	flex-direction: column;
+
+	color: #fff;
+	text-align: center;
+}
+/*Centramos el contenedor*/
+.contenedor{
+	width: 90% !important;
+	max-width: 1200px !important;
+	/*Ocultamos el contenido sobresaliente del elemento*/
+	overflow: hidden !important;
+	margin: auto !important;
+	/*Arriba/abajo y los costados*/
+	padding: 60px 0 !important;
+	
+}

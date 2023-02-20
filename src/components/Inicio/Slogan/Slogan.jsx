@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function Portafolio() {
+function Slogan() {
   return (
     <>
       <div className="portfolio section-padding" data-scroll-index="3">
@@ -20,4 +20,4 @@ function Portafolio() {
   );
 }
 
-export default Portafolio
+export default Slogan;

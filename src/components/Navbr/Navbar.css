@@ -1,18 +1,24 @@
-
+.carousel{
+	height: 70vh;
+}
+.logo-img{
+	width: 160px;
+	height: auto;
+}
 
 .banner {
 	background:url("../../assets/img/headerimage.jpg") no-repeat 0% 0% / 100% 100%;
 	background-size: cover;
 	color:#ffffff;
 	text-align: center;
-	height: 100%;
+	height: auto;
 	width: 100%;
 }
 .banner-overlay {
 	background: rgb(223,146,254);
 background: linear-gradient(0deg, rgba(223,146,254,1) 7%, rgba(184,158,252,0.835171568627451) 59%, rgba(157,170,250,0.3449754901960784) 99%);
 width: 100%;
-height: 100%;
+height: auto;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -23,14 +29,14 @@ background-repeat: no-repeat;
 	background-size: cover;
 	color:#ffffff;
 	text-align: center;
-	height: 100%;
+	height: auto;
 	width: 100%;
 }
 .banner-overlay2 {
 	background: rgb(223,146,254);
 background: linear-gradient(0deg, rgba(223,146,254,1) 7%, rgba(184,158,252,0.835171568627451) 59%, rgba(157,170,250,0.3449754901960784) 99%);
 width: 100%;
-height: 100%;
+height: auto;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -42,14 +48,14 @@ background-repeat: no-repeat;
 	background-size: cover;
 	color:#ffffff;
 	text-align: center;
-	height: 100%;
+	height: auto;
 	width: 100%;
 }
 .banner-overlay3 {
 	background: rgb(223, 144, 254);
 background: linear-gradient(0deg, rgba(223,146,254,1) 7%, rgba(184,158,252,0.835171568627451) 59%, rgba(157,170,250,0.3449754901960784) 99%);
 width: 100%;
-height: 100%;
+height: auto;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;

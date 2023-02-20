@@ -1,0 +1,41 @@
+.box-content{
+    margin-top: 150px;
+}
+.header-portfolio{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(50, 84, 168,0.404)0%,rgba(62, 50, 168,0.404)100%), url('../../assets/img/portfolio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.title-head{
+    font-size: 60px;
+    font-weight: bold;
+}
+.head{
+	padding: 0;
+	/*Ocupamos toda la altura*/
+	height: 100%;
+	/*Acomodamos los elementos*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/*Columnas de elementos (No uno al lado de otro)*/
+	flex-direction: column;
+
+	color: #fff;
+	text-align: center;
+}
+/*Centramos el contenedor*/
+.contenedor{
+	width: 90% !important;
+	max-width: 1200px !important;
+	/*Ocultamos el contenido sobresaliente del elemento*/
+	overflow: hidden !important;
+	margin: auto !important;
+	/*Arriba/abajo y los costados*/
+	padding: 60px 0 !important;
+	
+}

@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './HowWeDo.css'
 
-function Service() {
+function HowWeDo() {
   return (
     <>
         <div style={{marginTop:"-10rem"}} className="services section-padding bg-grey" data-scroll-index='2'>
   <div className="container">
     <div className="row">
       <div className="col-md-12 section-title text-center">
-        <h3>Lorem Ipsum is simply dummy</h3>
+        <h3>¿Como lo hacemos?</h3>
         <p>Lorem Ipsum is simply dummyLorem Ipsum is simply dummy</p>
         <span className="section-title-line"></span> </div>
       <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-30">
@@ -71,4 +72,4 @@ function Service() {
   )
 }
 
-export default Service
+export default HowWeDo;

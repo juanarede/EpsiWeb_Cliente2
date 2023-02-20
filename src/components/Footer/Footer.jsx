@@ -1,5 +1,7 @@
 import React from 'react'
-import "./Footer.css"
+import "./Footer.css";
+import Logo from "../../assets/img/logo.png";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -17,7 +19,7 @@ function Footer() {
                     marginBottom: "1rem",
                   }}
                 >
-                  Logo{" "}
+                  <img src={Logo} alt='logo-brand-top' className='brand-top'/>
                 </h4>
 
                 <p style={{ color: "#fff" }} class="text-start text-responsive">
@@ -32,6 +34,7 @@ function Footer() {
                 <hr class="vertical" width="2px" noshade="noshade" />
               </div>
               <div className="col-12 col-lg-3">
+                <Link to="/about">
                 <a
                   style={{
                     textDecoration: "none",
@@ -40,11 +43,15 @@ function Footer() {
                     color: "#fff",
                   }}
                   class="nav-link me-lg-3 text-start text-uppercase fw-bold"
-                  href="#service"
-                  title="Service"
+                  href="/about"
+                  title="About Us"
+                  
                 >
                   SOBRE NOSOTROS
                 </a>
+                </Link>
+                
+                <Link to="/servicios">
                 <a
                   style={{
                     textDecoration: "none",
@@ -52,23 +59,29 @@ function Footer() {
                     color: "#fff",
                   }}
                   class="nav-link me-lg-3  text-start text-uppercase fw-bold"
-                  href="#aboutus"
-                  title="About"
+                  href="/servicios"
+                  title="Services"
                 >
                   SERVICIOS
                 </a>
-                <a
+                </Link>
+                
+                <Link to="/portafolio">
+                 <a
                   style={{
                     textDecoration: "none",
                     marginBottom: "1rem",
                     color: "#fff",
                   }}
                   class="nav-link me-lg-3 text-start text-uppercase fw-bold"
-                  href="#precios"
-                  title="Price"
+                  href="/portafolio"
+                  title="Portfolio"
                 >
                   PORTAFOLIO
                 </a>
+                </Link>
+               
+               <Link to="contact">
                 <a
                   style={{
                     textDecoration: "none",
@@ -76,11 +89,13 @@ function Footer() {
                     color: "#fff",
                   }}
                   class="nav-link me-lg-3 text-start text-uppercase fw-bold"
-                  href="#precios"
-                  title="Price"
+                  href="/contact"
+                  title="Contact"
                 >
                   CONTACTO
                 </a>
+               </Link>
+               
               </div>
               <div className="linea col-1 d-none d-sm-block">
                 <hr
@@ -121,7 +136,7 @@ function Footer() {
 
             <div className='row'>
             <div style={{marginTop:"10rem", color:"#fff"}} className='col'>
-            &copy; EpsiWeb 2022. All Rights Reserved.
+            &copy; <img src={Logo} alt="brand-footer" className='brand-footer'/> 2023 . All Rights Reserved | Design by <a href="https://epsiweb.com/">EpsiWeb</a>
             </div>
 
             </div>

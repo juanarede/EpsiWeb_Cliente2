@@ -15,8 +15,8 @@
 
 .footer-section{
    
-    background: rgb(223,146,254);
-    background: linear-gradient(80deg, rgba(223,146,254,1) 7%, rgba(184,158,252,0.9976365546218487) 59%, rgba(157,170,250,1) 99%);
+    background: rgb(107,21,153);
+    background: linear-gradient(90deg, rgb(107, 21, 153) 17%, rgba(251,152,137,1) 99%);
     padding-bottom: 6rem;
     padding-top: 3rem;
 } 

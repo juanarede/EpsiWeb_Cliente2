@@ -10,9 +10,9 @@ function ContactUs() {
           <div className="container">
             <div className="row">
               <div className="col-1"></div>
-              <div className="col-md-4 mb-50">
+              <div className="col-md-5 mb-50">
                 <div className="section-info">
-                  <div className="sub-title-paragraph">
+                  <div className="">
                     <hr
                       class="mb-3 mt-0 divider   "
                       style={{
@@ -35,8 +35,11 @@ function ContactUs() {
                   </div>
                 </div>
               </div>
+              <div className="col-md-3">
+              <Forms />
+              </div>
              
-              <Forms/>
+          
 
               
               <div className="col-1"></div>

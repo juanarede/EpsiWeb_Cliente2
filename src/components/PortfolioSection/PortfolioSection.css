@@ -2,7 +2,7 @@
     margin-top: 150px;
 }
 .header-portfolio{
-    height: 100vh;
+    height: 60vh;
     background-image: linear-gradient(to top, rgba(50, 84, 168,0.404)0%,rgba(62, 50, 168,0.404)100%), url('../../assets/img/portfolio.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,3 +39,5 @@
 	padding: 60px 0 !important;
 	
 }
+
+

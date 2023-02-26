@@ -45,7 +45,7 @@ function Forms() {
     
 
     return(
-        <div style={{ marginTop: "-5rem" }} className="col-md-4 ">
+        <div style={{ marginTop: "-3rem" }} className="">
                 <div className="contact_form">
                   <div className="formulario">
                     <form onSubmit={sendData} id="formu">
@@ -113,7 +113,7 @@ function Forms() {
                         name="enviar_formulario"
                         id="enviar"
                       >
-                        <p>Enviar</p>
+                        <p style={{color:"#ffff"}}>Enviar</p>
                       </button>
 
                       <p class="aviso">

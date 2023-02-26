@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <>
-      <div style={{ marginTop: "-5rem" }} className="footer-section">
+      <div  className="footer-section">
         <footer className=" text-center footer-section " id="contact">
           <div className="container text-center   ">
             <div style={{ marginTop: "5rem" }} className="row ">
@@ -19,7 +19,7 @@ function Footer() {
                     marginBottom: "1rem",
                   }}
                 >
-                  <img src={Logo} alt='logo-brand-top' className='brand-top'/>
+                  <img src={Logo} alt='logo-brand-top ' className='brand-top'/>
                 </h4>
 
                 <p style={{ color: "#fff" }} class="text-start text-responsive">
@@ -33,7 +33,7 @@ function Footer() {
               <div className="linea col-1 d-none d-sm-block">
                 <hr class="vertical" width="2px" noshade="noshade" />
               </div>
-              <div className="col-12 col-lg-3">
+              <div className="col-6 col-lg-2">
                 <Link to="/about">
                 <a
                   style={{
@@ -105,14 +105,14 @@ function Footer() {
                   noshade="noshade"
                 />
               </div>
-              <div className="col-12 col-lg-3">
+              <div className="col-12 col-lg-3 ">
                 <p
                   style={{ color: "#fff", marginTop: "1rem" }}
-                  class="text-start"
+                  class="d-flex justify-content-center"
                 >
                   Seguinos en nuestras Redes
                 </p>
-                <div className="text-start">
+                <div className="d-flex justify-content-center">
                   <img
                     className="red-social"
                     src="https://uploads-ssl.webflow.com/60af88a5233e422dc4f1f472/60b0dfde88780c69eb5758df_FB.svg"

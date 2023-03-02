@@ -9,7 +9,7 @@ function PortfolioSection() {
     return(
         <>
         <Navbar/>
-        <PortfolioHeader/>
+       <PortfolioHeader/> 
         <PortfolioContent/>
         <Footer/>
         </>

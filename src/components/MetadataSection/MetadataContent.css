@@ -13,6 +13,7 @@
 .intro-text h1{
     font-size: 60px;
     font-weight: 500;
+    margin-left: 50px;
     background: linear-gradient(to right, #494964, #6f6f89);
     background-clip: text;
     -webkit-background-clip: text;
